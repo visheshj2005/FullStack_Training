@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Playwrite DE Grund", cursive;
+        /* font-optical-sizing: auto; */
+        /* font-weight: <weight>; */
+        /* font-style: normal; */
+      }
+      #navigation {
+        width: 275px;
+        height: 95vh;
+        border: 3px solid black;
+        border-radius: 8px;
+        margin: 5px;
+      }
+      #navigation #profile {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        margin-bottom: 25px;
+      }
+      #buttons-block .buttons {
+        display: flex;
+        align-items: center; 
+        gap: 8px;
+        padding: 5px 10px;
+        margin: 0 10px 25px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 8px;
+      }
+      #buttons-block .buttons img {
+        width: 20px;
+      }
+      #buttons-block .buttons div {
+        display: inline-block; 
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navigation">
+      <div id="profile">
+        <img
+          src="profile-image.jpg"
+          alt=""
+          id="profile-photo"
+          style="width: 100px; border-radius: 50px;margin-bottom: 15px;"
+        />
+        <div id="profile-desc" style="font-weight: bold">
+          <div style="text-align: center">Vishesh Jain</div>
+          <div style="text-align: center">Full Stack Developer</div>
+        </div>
+      </div>
+      <div id="buttons-block">
+        <div class="buttons">
+          <img src="./icons/user-solid-full.svg" alt="" />
+          <div>About Me</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/diagram-project-solid-full.svg" alt="" />
+          <div>Projects</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/certificate-solid-full.svg" alt="" />
+          <div>Certificates</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/github-brands-solid-full.svg" alt="" />
+          <div>Github</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/linkedin-brands-solid-full.svg" alt="" />
+          <div">Linkedin</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

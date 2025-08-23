@@ -1,0 +1,7 @@
+Selectors 
+1. ID (#)
+2. Class (.)
+3. Tag Name
+Link tag to add css file to html file
+Text wrapping in vs code using (>) symbol
+Comments in CSS - /*            */
