@@ -1,0 +1,44 @@
+Hyper text
+Markup Language
+Example - HTML,XML
+Emmet Abbreviations
+BoilerPlate
+HTML never give error
+Lorem <Number>
+Extension - Live Server
+latest version HTML - 5 (!Doctype)
+HTML - Language
+HEAD - Meta,Title,Add CSS,Add JS
+Favicon
+Tags:-
+Heading - H1 to H6 - (h${Heading-$}*6)
+Create divs with different IDs and same class - (div#id$.same*6),(Rudraksh#Tanmay-$.Vishesh*10)
+Paragraph Tags
+Developer Tools, Inspect
+HTML Element, Attributes
+HTML Comments (<!--                -->)
+Division Tag (div)
+Tags is raw content with CSS
+Anchor tag use for hyper referencing
+Paths - Absolute and Relative Path
+Need port number to run multiple tasks
+SSL Certificate
+Image Tag
+List - Ordered list, Unordered list
+Self Closing tag
+Semantic and Non Semantic Tag
+Shortcuts - 
+        Alt - Multiple Cursors
+        Ctrl + Enter - Move to new line
+pre tag - show content as it is with same formatting
+sub and sup tag (Ex- show x^2 and H2O)
+
+HTML entities and Symbols - 
+https://www.w3schools.com/html/html_symbols.asp
+https://www.webnots.com/using-symbols-and-special-characters-in-html/
+
+Creating table - 
+table,td,tr,thead,tbody,th with border
+Important - Row span and column span
+mailto: and tel: in anhor tag
+

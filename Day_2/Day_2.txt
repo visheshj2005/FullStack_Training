@@ -1,0 +1,31 @@
+Forms, Inputs - (Shortcut - input:text)
+for dropdowns use Select tag + Option tag
+pass data methods 
+1. query params (name attribute in input tag + get method (by default get hi hota hai form ka))
+2. params 
+'%20' or + - Space
+'%40' - @
+audio and video tag
+iframe
+
+Block level and Inline elements
+1. Block level elements takes complete width of the screen (h,p,div)
+2. Inline elements takes only that width that it needs
+
+span tag
+
+Semantic and Non sementic tags
+1. Semantic (header,footer,main,section,aside,article,strong,nav) Good for SEO (Search Engine Optimization) 
+2. Non semantic tag (Bold)
+
+<------------- CSS --------------->
+CSS - Cascarding Style Sheet
+Version - 3
+Bootstrap
+Tailwind CSS
+Types of CSS :
+1. Inline
+2. Internal
+3. External
+
+ 
