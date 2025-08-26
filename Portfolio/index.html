@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        /* align-items: ;  */
+      }
+      * {
+        font-family: "Playwrite DE Grund", cursive;
+        /* font-optical-sizing: auto; */
+        /* font-weight: <weight>; */
+        /* font-style: normal; */
+      }
+      #navigation {
+        width: 275px;
+        height: 94vh;
+        border: 3px solid black;
+        border-radius: 8px;
+        margin: 5px;
+      }
+      #navigation #profile {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        margin-bottom: 25px;
+      }
+      #buttons-block .buttons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 5px 10px;
+        margin: 0 10px 25px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 8px;
+      }
+      #buttons-block .buttons img {
+        width: 20px;
+      }
+      #buttons-block .buttons div {
+        display: inline-block;
+        font-size: 14px;
+      }
+      .project-card {
+        margin: 10px;
+        padding: 10px;
+        /* height: 300px; */
+        width: 300px;
+        border: 3px solid black;
+        border-radius: 8px;
+      }
+      .project-card #project-card-heading {
+        margin: 4px;
+        font-size: 13px;
+        font-weight: bold;
+      }
+      .project-card #project-card-content {
+        margin: 4px;
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navigation">
+      <div id="profile">
+        <img
+          src="profile-image.jpg"
+          alt=""
+          id="profile-photo"
+          style="width: 100px; border-radius: 50px; margin-bottom: 15px"
+        />
+        <div id="profile-desc" style="font-weight: bold">
+          <div style="text-align: center">Vishesh Jain</div>
+          <div style="text-align: center">Full Stack Developer</div>
+        </div>
+      </div>
+      <div id="buttons-block">
+        <div class="buttons">
+          <img src="./icons/user-solid-full.svg" alt="" />
+          <div>About Me</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/diagram-project-solid-full.svg" alt="" />
+          <div>Projects</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/certificate-solid-full.svg" alt="" />
+          <div>Certificates</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/github-brands-solid-full.svg" alt="" />
+          <div>Github</div>
+        </div>
+        <div class="buttons">
+          <img src="./icons/linkedin-brands-solid-full.svg" alt="" />
+          <div">Linkedin
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style="
+          height: 30px;
+          border-radius: 9px;
+          border: 3px solid black;
+          margin-top: 5px;
+          width: 78vw;
+          height: 50px;
+          font-size: 20px;
+          font-weight: bold;
+          padding-left: 15px;
+          padding-top: 20px;
+          text-align: center;
+        "
+      >
+        About Me
+      </div>
+      <div
+        style="
+          display: inline-block;
+          /* height: 30px; */
+          border-radius: 9px;
+          border: 3px solid black;
+          margin-top: 5px;
+          width: 78vw;
+          height: 78vh;
+          font-size: 20px;
+          font-weight: bold;
+          padding-left: 15px;
+          padding-top: 20px;
+          text-align: center;
+          /* scroll-behavior: smooth; */
+          overflow-y: auto;
+        "
+      >
+        <div style="display: flex">
+          <div class="project-card">
+            <img
+              src="image.png"
+              alt=""
+              style="width: 300px; margin-top: 4px; border-radius: 10px"
+            />
+            <div id="project-card-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              maxime, quisquam atque minima sed perferendis. Exercitationem
+              illum reiciendis autem labore.
+            </div>
+            <div id="project-card-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              nesciunt animi odio blanditiis qui dolores dolor facilis mollitia
+              nulla, commodi iure esse alias possimus ab eius odit molestias
+              neque ad! Quasi qui, neque eligendi unde rem quibusdam consequatur
+              quas perspiciatis porro, architecto quis consequuntur aut deserunt
+              vel quos alias! In.
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="image.png"
+              alt=""
+              style="width: 300px; margin-top: 4px; border-radius: 10px"
+            />
+            <div id="project-card-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              maxime, quisquam atque minima sed perferendis. Exercitationem
+              illum reiciendis autem labore.
+            </div>
+            <div id="project-card-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              nesciunt animi odio blanditiis qui dolores dolor facilis mollitia
+              nulla, commodi iure esse alias possimus ab eius odit molestias
+              neque ad! Quasi qui, neque eligendi unde rem quibusdam consequatur
+              quas perspiciatis porro, architecto quis consequuntur aut deserunt
+              vel quos alias! In.
+            </div>
+          </div>
+          <div style="display: flex">
+            <div class="project-card">
+              <img
+                src="image.png"
+                alt=""
+                style="width: 300px; margin-top: 4px; border-radius: 10px"
+              />
+              <div id="project-card-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                maxime, quisquam atque minima sed perferendis. Exercitationem
+                illum reiciendis autem labore.
+              </div>
+              <div id="project-card-content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nesciunt animi odio blanditiis qui dolores dolor facilis
+                mollitia nulla, commodi iure esse alias possimus ab eius odit
+                molestias neque ad! Quasi qui, neque eligendi unde rem quibusdam
+                consequatur quas perspiciatis porro, architecto quis
+                consequuntur aut deserunt vel quos alias! In.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex">
+          <div class="project-card">
+            <img
+              src="image.png"
+              alt=""
+              style="width: 300px; margin-top: 4px; border-radius: 10px"
+            />
+            <div id="project-card-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              maxime, quisquam atque minima sed perferendis. Exercitationem
+              illum reiciendis autem labore.
+            </div>
+            <div id="project-card-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              nesciunt animi odio blanditiis qui dolores dolor facilis mollitia
+              nulla, commodi iure esse alias possimus ab eius odit molestias
+              neque ad! Quasi qui, neque eligendi unde rem quibusdam consequatur
+              quas perspiciatis porro, architecto quis consequuntur aut deserunt
+              vel quos alias! In.
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="image.png"
+              alt=""
+              style="width: 300px; margin-top: 4px; border-radius: 10px"
+            />
+            <div id="project-card-heading">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+              maxime, quisquam atque minima sed perferendis. Exercitationem
+              illum reiciendis autem labore.
+            </div>
+            <div id="project-card-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              nesciunt animi odio blanditiis qui dolores dolor facilis mollitia
+              nulla, commodi iure esse alias possimus ab eius odit molestias
+              neque ad! Quasi qui, neque eligendi unde rem quibusdam consequatur
+              quas perspiciatis porro, architecto quis consequuntur aut deserunt
+              vel quos alias! In.
+            </div>
+          </div>
+          <div style="display: flex">
+            <div class="project-card">
+              <img
+                src="image.png"
+                alt=""
+                style="width: 300px; margin-top: 4px; border-radius: 10px"
+              />
+              <div id="project-card-heading">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                maxime, quisquam atque minima sed perferendis. Exercitationem
+                illum reiciendis autem labore.
+              </div>
+              <div id="project-card-content">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+                nesciunt animi odio blanditiis qui dolores dolor facilis
+                mollitia nulla, commodi iure esse alias possimus ab eius odit
+                molestias neque ad! Quasi qui, neque eligendi unde rem quibusdam
+                consequatur quas perspiciatis porro, architecto quis
+                consequuntur aut deserunt vel quos alias! In.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
