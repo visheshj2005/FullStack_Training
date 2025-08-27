@@ -1,4 +1,5 @@
-box-sizing:border-box
+box-sizing:border-box(border and padding included)
 margin-collapse
 only work in top buttom
-Units - px,vh,vw,%,em,rem
+Units - px,vh,vw,%,em(parent element),rem(root element)
+Difference between Inline and Inline-block

@@ -1,0 +1,2 @@
+Flex property by default works along main-axis
+Its direction can be changed using flex-direction

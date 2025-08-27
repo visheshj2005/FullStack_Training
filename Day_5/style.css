@@ -1,0 +1,20 @@
+*{
+    font-family: "Playwrite DE Grund", cursive;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: rgb(61, 59, 59);
+    font-size: large;
+    padding-top: 7px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+::placeholder {
+  color: #ff8888; /* Example: a light gray color */
+}
