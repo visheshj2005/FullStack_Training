@@ -7,13 +7,18 @@
 }
 #list{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;
+     */
+     /* justify-content: ; */
+     /* align-items:; */
+     
     gap: 30px;
     color: rgb(61, 59, 59);
     font-size: large;
     padding-top: 7px;
     padding-right: 50px;
     font-weight: bold;
+    /* align-content:; */
 }
 ::placeholder {
   color: #ff8888; /* Example: a light gray color */

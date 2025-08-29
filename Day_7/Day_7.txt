@@ -1,0 +1,12 @@
+1. Group Selectors
+2. Descendent Selectors
+3. Child Selectors (for applying CSS to immediate children using > sign)
+4. Adjacent Sibling Selector (using + sign), General Sibling Selector (using ~ sign) on the same level only
+5. Pseudo Selectors
+Types :-
+i) Pseudo Classes - focus , hover, link , active , visited , nth-child, last-child, first-child (using : sign)
+ii) Pseudo Elements - before, after, placeholder, selection ()
+
+Transition property
+
+link --> visited --> hover --> active
