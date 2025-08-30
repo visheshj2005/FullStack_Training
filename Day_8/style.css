@@ -1,0 +1,43 @@
+input{
+    font-size: 20px;
+    padding: 10px;
+}
+input:focus{
+ background-color: aqua;
+ color:red;
+}
+input::placeholder{
+    color: brown;
+}
+p::selection{
+    background-color: beige;
+    color: blue;
+}
+/* p::before{
+    content: "";
+    background-color: tomato;
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    position: relative;
+    margin-right: 8px;
+    top:-4px;
+}
+p::after{
+    content: "";
+    background-color: tomato;
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    position: relative;
+    margin-left: 8px;
+    top:-4px;
+} */
+p::first-letter{
+    font-size: 50px;
+    color: blueviolet;
+}
+/* !important */
+/* position - static, absolute, relative, fixed, sticky */
+/* Supporting properties - top, botton, left, right */
+/* transform - translate , rotate, scale, skew */

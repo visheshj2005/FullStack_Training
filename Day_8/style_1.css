@@ -1,0 +1,119 @@
+/* input {
+  font-size: 30px;
+  padding: 20px;
+}
+
+input:focus {
+  background-color: aqua;
+  color: red;
+}
+
+input::placeholder {
+  color: brown;
+} */
+
+/* p::selection{
+    background-color: black;
+    color: aqua;
+}
+
+::selection{
+  background-color: black;
+  color: aqua;
+} */
+
+/* p{
+    text-align: center;
+} */
+
+/* p::before{
+    content: "";
+    background-color: red;
+    border: 3px solid blue;
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    margin-right: 8px;
+    position: relative;
+    top:-4px;
+
+}
+
+p::after{
+    content: "";
+    background-color: red;
+    border: 3px solid blue;
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    margin-right: 8px;
+    position: relative;
+    top:-4px;
+
+} */
+
+/* p:hover::before{
+    content: "Hello Techno";
+    background-color: aqua;
+} */
+
+/* p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+p::first-line{
+    background-color: blueviolet;
+} */
+
+/* #container{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 5px;
+    z-index: -1;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.container {
+  position: absolute;
+  top: 0px;
+}
+
+.container:hover {
+  border-radius: 100px;
+  /* transition: 5s; */
+}
+#item1 {
+  height: 400px;
+  width: 400px;
+     top: 50px;
+    left: 50px;
+  background-color: aqua;
+}
+#item2 {
+  height: 300px;
+    width: 300px;
+    top: 100px;
+    left: 100px;
+  background-color: blue;
+}
+#item3 {
+  height: 200px;
+    width: 200px;
+       top: 150px;
+    left: 150px;
+  background-color: brown;
+}
