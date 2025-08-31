@@ -1,0 +1,4 @@
+1. keyframes
+2. Media Queries
+3. Animations
+4. Variables - Global and local in CSS
