@@ -1,0 +1,47 @@
+<---------------------------------- JAVASCRIPT ------------------------------------>
+1. V8 Engine JAVASCRIPT
+2. JAVASCRIPT is synchronous but some times it works asynchronously
+3. Scripting Language 
+4. ECMA Script
+5. It is a single threaded
+6. NetScape Browser
+7. Comments - //
+8. It is dynamically typed Language
+
+Data types of variables - var,let,const
+let,const - ES-6
+
+
+// Important - Redeclaration and reassign is possible ;) in var
+// var firstName = "Vishesh";
+// console.log(firstName);
+//var firstName = "Jain";
+//console.log(firstName);
+
+
+// Important - Cannot be redeclaration but reassign is possible ;) in let
+
+// Important - Cannot be redeclaration and reassign ;) in const
+
+Rules of using name of identifier (can use special symbols - $,_)
+
+snake case - first_Name - env
+camel case - firstName - variables and functions
+pascal case - FirstName - React components
+
+
+//primitive types - number , string , boolean , undefined , symbol , null
+//reference types - array, objects, date
+
+// typeof (num1)
+
+when to use backticks,single quotes,double quotes
+
+
+Operators - 
+
++,-,*,/,%,**
+=,+=,-=,*=,/=,%=,**=
+==,===,!=,!==,<,>,<=,>=
+&&,||,!
+&,|,^,<<<,>>>
