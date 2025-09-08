@@ -63,12 +63,12 @@
 
 // while and do while loop
 
-let obj = {
-    firstName : "Vishesh",
-    lastName : "Jain",
-    address : "Udaipur",
-    gender : "Male"
-}
+// let obj = {
+//     firstName : "Vishesh",
+//     lastName : "Jain",
+//     address : "Udaipur",
+//     gender : "Male"
+// }
 // for(let i of Object.entries(obj)){
 //     console.log(i)
 // }
@@ -80,6 +80,7 @@ let obj = {
 // for(let i of Object.values(obj)){
 //     console.log(i)
 // }
-for(let key in obj){
-    console.log(obj[key])
-}
+// for(let key in obj){
+//     console.log(obj[key])
+// }
+

@@ -1,0 +1,204 @@
+1ai/
+├── backend/
+│   ├── .dockerignore
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── auth-middleware.ts
+│   ├── bun.lock
+│   ├── Dockerfile
+│   ├── expres.d.ts
+│   ├── index.ts
+│   ├── InMemoryStore.ts
+│   ├── openrouter.ts
+│   ├── package.json
+│   ├── postmark.ts
+│   ├── ratelimitter.ts
+│   ├── README.md
+│   ├── tsconfig.json
+│   ├── types.ts
+│   ├── email/
+│   │   └── templates/
+│   │       └── otpEmail.ts
+│   ├── prisma/
+│   │   ├── schema.prisma
+│   │   └── migrations/
+│   │       ├── migration_lock.toml
+│   │       ├── 20250821200459_init/
+│   │       │   └── migration.sql
+│   │       ├── 20250821203706_add_title/
+│   │       │   └── migration.sql
+│   │       ├── 20250821221605_add_credits_and_subscriptions/
+│   │       │   └── migration.sql
+│   │       ├── 20250823125143_update_schema/
+│   │       │   └── migration.sql
+│   │       ├── 20250823232936_add_executions/
+│   │       │   └── migration.sql
+│   │       └── 20250823233433_rm_title_from_convo/
+│   │           └── migration.sql
+│   └── routes/
+│       ├── ai.ts
+│       ├── auth.ts
+│       ├── billing.ts
+│       ├── execution.ts
+│       ├── rzpWebhookRouter.ts
+│       └── apps/
+│           ├── app.ts
+│           ├── article-summarizer.ts
+│           ├── index.ts
+│           └── youtube-summarizer.ts
+└── frontend/
+    ├── .gitignore
+    ├── bun.lock
+    ├── components.json
+    ├── env.js
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── README.md
+    ├── tsconfig.json
+    ├── app/
+    │   ├── layout.tsx
+    │   ├── not-found.tsx
+    │   ├── page.tsx
+    │   ├── providers.tsx
+    │   ├── proxima_vara.woff2
+    │   ├── t3.mp4
+    │   ├── (app)/
+    │   │   ├── layout.tsx
+    │   │   ├── apps/
+    │   │   │   └── [id]/
+    │   │   │       ├── article-summarizer-page.tsx
+    │   │   │       ├── page.tsx
+    │   │   │       └── [convoId]/
+    │   │   │           └── page.tsx
+    │   │   ├── ask/
+    │   │   │   ├── page.tsx
+    │   │   │   └── [chatId]/
+    │   │   │       └── page.tsx
+    │   │   └── pricing/
+    │   │       ├── page.tsx
+    │   │       └── cancel/
+    │   │           └── page.tsx
+    │   ├── (auth)/
+    │   │   └── auth/
+    │   │       └── page.tsx
+    │   ├── _components/
+    │   │   ├── dashboard-image.tsx
+    │   │   ├── Email.tsx
+    │   │   ├── Feedback.tsx
+    │   │   ├── footer.tsx
+    │   │   ├── get-started.tsx
+    │   │   ├── hero.tsx
+    │   │   ├── Navbar.tsx
+    │   │   ├── Otp.tsx
+    │   │   ├── Prcing.tsx
+    │   │   ├── SharedChat.tsx
+    │   │   ├── sidebar-toggle.tsx
+    │   │   └── TestingMonials.tsx
+    │   ├── about/
+    │   │   └── page.tsx
+    │   ├── components/
+    │   │   └── ScrollReveal.tsx
+    │   ├── contact/
+    │   │   └── page.tsx
+    │   ├── privacy/
+    │   │   └── page.tsx
+    │   ├── refund/
+    │   │   └── page.tsx
+    │   └── terms/
+    │       └── page.tsx
+    ├── assets/
+    │   └── logo.svg
+    ├── components/
+    │   ├── PaymentModal.tsx
+    │   ├── RazorpayPayment.tsx
+    │   ├── theme-provider.tsx
+    │   ├── subscription/
+    │   │   ├── account.tsx
+    │   │   ├── api-key.tsx
+    │   │   ├── attachments.tsx
+    │   │   ├── contact-us.tsx
+    │   │   ├── customisation.tsx
+    │   │   ├── history.tsx
+    │   │   ├── model.tsx
+    │   │   └── profile/
+    │   │       └── profile.tsx
+    │   ├── svgs/
+    │   │   ├── anthropic.tsx
+    │   │   ├── logo.tsx
+    │   │   └── openai.tsx
+    │   └── ui/
+    │       ├── avatar.tsx
+    │       ├── badge.tsx
+    │       ├── base-feature.tsx
+    │       ├── breadcrumb.tsx
+    │       ├── button.tsx
+    │       ├── card.tsx
+    │       ├── collapsible.tsx
+    │       ├── command.tsx
+    │       ├── dialog.tsx
+    │       ├── dropdown-menu.tsx
+    │       ├── form.tsx
+    │       ├── input-otp.tsx
+    │       ├── input.tsx
+    │       ├── label.tsx
+    │       ├── model-selector.tsx
+    │       ├── pricing-button.tsx
+    │       ├── pricing-card.tsx
+    │       ├── select.tsx
+    │       ├── separator.tsx
+    │       ├── sheet.tsx
+    │       ├── sidebar.tsx
+    │       ├── signout.tsx
+    │       ├── skeleton.tsx
+    │       ├── switch.tsx
+    │       ├── tabs-suggestion.tsx
+    │       ├── tabs.tsx
+    │       ├── textarea.tsx
+    │       ├── theme-toggler.tsx
+    │       ├── tooltip.tsx
+    │       ├── ui-input.tsx
+    │       ├── ui-structure.tsx
+    │       └── upgrade-cta.tsx
+    ├── config/
+    │   └── site.ts
+    ├── constants/
+    │   ├── data.tsx
+    │   └── query-keys.ts
+    ├── contexts/
+    │   ├── blur-context.tsx
+    │   ├── execution-context.tsx
+    │   └── font-context.tsx
+    ├── hooks/
+    │   ├── use-mobile.ts
+    │   ├── use-model.ts
+    │   ├── useConversation.ts
+    │   ├── useCredits.ts
+    │   ├── useExecution.ts
+    │   ├── useGlobalKeyPress.ts
+    │   └── useUser.ts
+    ├── lib/
+    │   ├── chat-service-example.tsx
+    │   ├── chat-service.ts
+    │   ├── mail.ts
+    │   ├── redis.ts
+    │   └── utils.ts
+    ├── models/
+    │   ├── constants.ts
+    │   ├── index.ts
+    │   ├── types.ts
+    │   └── utils.tsx
+    ├── prisma/
+    │   └── schema.prisma
+    ├── public/
+    │   ├── favicon-dark.svg
+    │   ├── favicon.svg
+    │   ├── file.svg
+    │   ├── globe.svg
+    │   ├── logo.svg
+    │   ├── next.svg
+    │   ├── vercel.svg
+    │   └── window.svg
+    └── styles/
+        └── globals.css
