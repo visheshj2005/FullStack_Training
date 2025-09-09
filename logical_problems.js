@@ -434,8 +434,8 @@
 //   helper[k++] = 1;
 // }
 // console.log(helper)
-permutations(str, helper, "", 0, str.length);
-console.log(ans);
+// permutations(str, helper, "", 0, str.length);
+// console.log(ans);
 
 //Flatten the object
 // let ans = [];
@@ -466,3 +466,4 @@ console.log(ans);
 // // console.log(typeof obj.d)
 // flatten(obj, "");
 // console.log(ans);
+
