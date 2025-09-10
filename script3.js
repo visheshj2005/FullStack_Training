@@ -202,5 +202,134 @@
 
 
 // Math methods
-let num = 1000
-console.log(Math.sqrt(num));
+// let num = 1000
+// console.log(Math.sqrt(num));
+// console.log(Math.ceil(10.00001));
+// console.log(Math.floor(10.00001));
+// console.log(Math.round(10.50001))
+// let pow = Math.pow(2,-1);
+// console.log(pow);
+
+// let min = Math.min(100,200,300);
+// console.log(min);
+
+// let max = Math.max(100,200,300);
+// console.log(max);
+
+// let randomNumber = Math.random();
+// console.log(randomNumber)
+
+// let otp = Math.floor(Math.random()*9000+1000); // think about range
+// console.log(otp)
+
+
+//Number methods 
+// let num = 102.43535343
+// console.log(num.toFixed(2));
+
+// let str = "5px";
+// console.log(typeof str);
+// let newNum = Number(str);
+// console.log(newNum)
+// console.log(typeof newNum);
+
+// console.log(Number.parseInt(str));
+// console.log(typeof Number.parseInt(str));
+
+// let str = "34.4332"
+// console.log(Number(str));
+
+// let str = "abc"
+// let num = Number(str);
+// console.log(num)
+
+
+// to get sum of all the numbers in the given string
+// let str = "1vishesh12jain0035fvfdb10djfbvjdf12";
+// str = "temp" + str;
+// let sum = 0;
+// console.log(str.slice(4));
+// console.log(str);
+// let temp = "";
+// for(let i=0;i<str.length;i++){
+//     if((str[i]>='1'&&str[i]<='9')&&(str[i-1]<'1'||str[i-1]>'9')){
+//         temp = str.slice(i);
+//         console.log(Number.parseInt(temp));
+//         sum += Number.parseInt(temp);
+//     }
+// }
+// console.log(sum)
+
+
+//Date Methods
+// let date = new Date();
+// console.log(date.getMilliseconds());
+// console.log(date.getSeconds());
+// console.log(date.getDay());
+// console.log(date.getFullYear());
+// console.log(date.getMinutes());
+// console.log(date.getTime());
+// console.log(date.getMonth());
+// console.log(date.toDateString());
+// console.log(date.toTimeString());
+
+
+// let newDate = Date.now(); //https://www.epoch101.com/
+// let currDate = new Date(newDate);
+// console.log(currDate);
+// console.log(0.1+0.2)
+
+// if((0.1+0.2)!=0.3){
+//     console.log(true)
+// }
+// else{
+//     console.log(false)
+// }
+
+
+//Type conversion(explicit) and type coercion(implicit)
+
+// let firstVar = "40"
+// let newNum = Number(firstVar)
+// console.log(typeof newNum);
+
+// let num = 40; // only 0 and empty string and null and undefined and false is false ,all others are true  
+// let str = "false";
+// console.log(String(num));
+// console.log(Boolean(num));
+// console.log(Boolean(str));
+
+
+//type coercison
+
+// console.log(1+"2"+3);
+// console.log(typeof (1+"2"+3));
+// in + number is converted to string in other operators string is converted to numbers
+// console.log(5+"5")
+// console.log(5-"5")
+// console.log(5*"5")
+// console.log(5/"5")
+// console.log("5"-true)
+// console.log("5"*true)
+// console.log("5"/true)
+// console.log("5"+true)
+// console.log([]+[]);
+// console.log([]+{});
+// console.log({}+{});
+// console.log({}+[]);
+
+
+//scopes and hoisiting
+
+//global scope, functional scope/local scope
+//block scope - ES6
+
+//var - global scope but in function it is local scope
+//let, const - block scope
+
+//hoisiting - it is a behavior of accessing var variables and normal functions before declaration.
+
+//var and normal functions supports hoisiting and gives undefined before declaration
+
+//10-09-2025
+
