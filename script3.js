@@ -330,6 +330,3 @@
 //hoisiting - it is a behavior of accessing var variables and normal functions before declaration.
 
 //var and normal functions supports hoisiting and gives undefined before declaration
-
-//10-09-2025
-
