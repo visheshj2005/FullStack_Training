@@ -13,17 +13,17 @@
 // Constructors
 
 // Classes
-class Person{
-    constructor(firstName,lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-    greet(){
-        console.log(`Hello ${this.firstName}, Good morning`);
-    }
-}
+// class Person{
+//     constructor(firstName,lastName){
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+//     greet(){
+//         console.log(`Hello ${this.firstName}, Good morning`);
+//     }
+// }
 
-const p1 = new Person("Vishesh","Jain");
+// const p1 = new Person("Vishesh","Jain");
 
-console.log(p1);
-p1.greet();
+// console.log(p1);
+// p1.greet();
